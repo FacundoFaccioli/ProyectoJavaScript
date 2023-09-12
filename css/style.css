@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(247, 255, 199);
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 22px;
+}
+
+p span{
+    text-decoration: underline;
+}
+
+ul{
+    font-size: 20px;
+    list-style: none;
+}
+
+h3{
+    font-size: 22px;
+}

@@ -22,3 +22,17 @@ ul{
 h3{
     font-size: 22px;
 }
+
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+}
+
+#erroresUsuario, #erroresDeCalculo {
+    color: red;
+    font-size: 20px;
+}
+
+#totalAPagar {
+    margin-top: 15px;
+}

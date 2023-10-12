@@ -20,15 +20,15 @@ const idsDeClienteValidos = [
 const ARSFormateador = new Intl.NumberFormat('es-AR', {
     style: 'currency',
     currency: 'ARS',
-});
+})
 
 function obtenerNumeroAleatorio() {
     const numeroAleatorio = Math.random();
 
     if (numeroAleatorio <= 0.03) {
-        return true;
+        return true
     } else {
-        return false;
+        return false
     }
 }
 
@@ -143,5 +143,4 @@ document.getElementById("botonCalcular").addEventListener("click", function () {
     }
 })
 
-// let clienteId = parseInt(prompt("Por favor ingrese su ID de cliente"))
 actualizarIdDeUsuario()
